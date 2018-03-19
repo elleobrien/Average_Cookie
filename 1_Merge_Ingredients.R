@@ -27,6 +27,6 @@ big_df$Text <- gsub(",","",big_df$Text)
 
 
 #Save as a big data frame for manual editing
-write.table(big_df, file = "ingredient_measures_All.csv", quote = FALSE, row.names = FALSE, dec = '.', sep = ',') 
+write.table(big_df, file = "1_ingredient_measures_All.csv", quote = FALSE, row.names = FALSE, dec = '.', sep = ',') 
 
 

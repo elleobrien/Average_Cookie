@@ -82,23 +82,23 @@ for i in index_list:
         
     with open(filename, encoding='utf-8') as f:
          text = f.read()
-         ngred = text.count('\n')
+         ngred = text.count('\n') + 1
          n_ingredients.append(ngred)
-         ingred_source_vector += [i]
-         line = text.split('\n')[-1]
-         line = line.strip()
-         line = line.replace('¾', '3/4')
-         line = line.replace('¼', '1/4')
-         line = line.replace('½', '1/2')
-         line = line.replace('⅓', '1/3')
-         line = line.replace('⅔', '2/3')
-         line = line.replace('\ufeff', '')
-         orig_num = re.findall('(\d+[\/\d. ]*|\d)', line)
-         if orig_num:
-            float_num = float(sum(Fraction(s) for s in orig_num[0].split()))
-            scaled_num = float_num * scale
-            line = line.replace(orig_num[0], str(scaled_num) + ' ')
-         mass_text.append(line)
+         ingred_source_vector += [i]*ngred
+         for line in  text.split('\n')[-1]:
+             line = line.strip()
+             line = line.replace('¾', ' 3/4')
+             line = line.replace('¼', ' 1/4')
+             line = line.replace('½', ' 1/2')
+             line = line.replace('⅓', ' 1/3')
+             line = line.replace('⅔', ' 2/3')
+             line = line.replace('\ufeff', '')
+             orig_num = re.findall('(\d+[\/\d. ]*|\d)', line)
+             if orig_num:
+                float_num = float(sum(Fraction(s) for s in orig_num[0].split()))
+                scaled_num = float_num * scale
+                line = line.replace(orig_num[0], str(scaled_num) + ' ')
+             mass_text.append(line)
     counter = counter + 1
     
 # Now, we want to sort the ingredients into umbrella categories.
@@ -232,7 +232,7 @@ for i in index_list:
 # Ingredient category, entry, source recipe index 
 
 # Find all occurrences of these ingredients in our consolidated list
-with open('ingredient_measures_Misc_addend.csv','w') as csvfile:
+with open('ingredient_measures_Misc2.csv','w') as csvfile:
     writer = csv.writer(csvfile)
     fieldnames=['Ingredient','Text','Recipe_Index','Rating']
     writer.writerow(fieldnames)
@@ -241,7 +241,7 @@ for i in whole_list:
     text = mass_text[i]
     recipe_index = ingred_source_vector[i]
     rating = ratings[index_list.index(ingred_source_vector[i])]
-    with open('ingredient_measures_Misc_addend.csv','a',encoding='utf-8') as csvfile:
+    with open('ingredient_measures_Misc2.csv','a',encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow([category] + [text] + [recipe_index] + [rating])
     

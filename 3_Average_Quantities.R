@@ -1,7 +1,8 @@
+library(dplyr)
 rm(list = ls())
 
 # Read in the data frame
-df <- read.csv("Scaled_Units.csv", row.names = NULL)
+df <- read.csv("./Aggregated_Data/Scaled_Units_Cleaned.csv", row.names = NULL)
 df$Quantity <- as.numeric(as.character(df$Quantity))
 
 # How many recipes are there in the databse?
@@ -35,11 +36,15 @@ padded_avg <- function(x){
 df_sum <- df %>% group_by(Ingredient, Unit) %>% summarise(mean = padded_avg(Quantity))
   
 # Print it out! 
-write.csv(df_sum, "All_Ingredient_Average.csv")
+write.csv(df_sum, "3_All_Ingredient_Average.csv")
 
 # Now, what if we just used the top 10 most common ingredients?
 ingred_freq <- df %>% group_by(Ingredient) %>% summarise(count = n())
 # Get top ingredients
-head(ingred_freq[order(ingred_freq$count, decreasing= T),], n = 10)
+top_ten <- head(ingred_freq[order(ingred_freq$count, decreasing= T),], n = 10)
 
+# Get the average quantities of each of these
+ingred_list <- top_ten$Ingredient
 
+mean_df <- subset(df_sum, Ingredient %in% ingred_list)
+mean_df

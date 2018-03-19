@@ -3,7 +3,6 @@ rm(list = ls())
 setwd('./Aggregated_Data')
 # Read in the data frame
 df <- read.csv("ingredient_measures_All_Cleaned.csv", row.names = NULL)
-df <- read.csv("ingredient_measures_Misc_Addend.csv", row.names = NULL)
 
 # Remove ingredients from cancelled recipes
 # Aren't really plain chocolate chip cookies
@@ -225,7 +224,7 @@ df_comp <- subset(df, !(Ingredient %in% c("walnut","butter","all purpose flour",
                                           "chocolate chip","milk")))
 
 master_df <- rbind(scaled_df, df_comp)
-write.csv(master_df, file = "Scaled_Units_add.csv")
+write.csv(master_df, file = "2_Scaled_Units.csv")
 
 
 
