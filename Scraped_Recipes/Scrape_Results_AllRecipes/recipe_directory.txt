@@ -1,0 +1,280 @@
+0	Best Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+1	Outrageous Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+2	Mom's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+3	Stephen's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+4	Giant Chocolate Chip Cookie Recipe - Allrecipes.com	1	1
+5	Persimmon Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+6	Ashley's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+7	Chocolate Chip Cookies V Recipe - Allrecipes.com	1	1
+8	Yogurt Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+9	Beth's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+10	Anna's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+11	Tiffany's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+12	Chocolate Chip Cookies I Recipe - Allrecipes.com	1	1
+13	Jack's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+14	Amy's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+15	George's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+16	Buttermilk Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+17	Toffee Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+18	Yummy Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+19	Spumoni Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+20	The Ultimate Chocolate Chip Cookie Recipe - Allrecipes.com	1	1
+21	Orange Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+22	Easy Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+23	Coffee Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+24	Dishpan Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+25	Zippy Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+26	Chocolate Chip Cookies VI Recipe - Allrecipes.com	1	1
+27	The Best Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+28	Paleo Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+29	Golden Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+30	Passover Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+31	Chocolate Chip Cookies VII Recipe - Allrecipes.com	1	1
+32	Fabulous Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+33	Banana Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+34	Giant Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+35	Pistachio Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+36	No-Fail Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+37	Mellow Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+38	Nutty Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+39	Italian Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+40	Chocolate Chip Cookies with Avocado Recipe - Allrecipes.com	1	0
+41	Light Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+42	The Perfect Chocolate Chip Cookie Recipe - Allrecipes.com	1	1
+43	Chocolate Chip Cookies with a Secret Recipe - Allrecipes.com	1	1
+44	Chocolate Chip Cookies II Recipe - Allrecipes.com	1	1
+45	Quinoa Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+46	Guilty Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+47	Miami Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+48	Triple Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+49	Angel Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+50	No Butter Choco-Chip Cookies Recipe - Allrecipes.com	1	0
+51	Basic Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+52	Ally's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+53	Chocolate Chip Cookies Lite Recipe - Allrecipes.com	1	1
+54	Chocolate Chip Cookies IV Recipe - Allrecipes.com	1	1
+55	Chocolate Chip Cookie Bars Recipe - Allrecipes.com	0	0
+56	Chocolate Chip Cookies III Recipe - Allrecipes.com	1	1
+57	Chocolate Chip Cookie Brownies Recipe - Allrecipes.com	0	0
+58	Chocolate Chip Cookie Cake Recipe - Allrecipes.com	0	0
+59	Minty Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+60	Cinnamon Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+61	Chocolate Chip Cookie Cake Recipe - Allrecipes.com	0	0
+62	Chocolate Chip Cookie Pie Recipe - Allrecipes.com	0	0
+63	Chocolate Chocolate Chip Cookies I Recipe - Allrecipes.com	1	0
+64	Tina's Shortbread Chocolate Chip Cookies Recipe - Allrecipes.com	0	0
+65	Absolutely the Best Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+66	Chef John's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+67	Pumpkin Chocolate Chip Cookies III Recipe - Allrecipes.com	1	0
+68	Amena's Triple Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+69	Urban Legend Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+70	Chocolate Chocolate Chip Cookies II Recipe - Allrecipes.com	1	0
+71	Paleo Skillet Chocolate Chip Cookie Recipe - Allrecipes.com	1	0
+72	Oatmeal Chocolate Chip Cookies III Recipe - Allrecipes.com	1	0
+73	Gluten-Free Chocolate Chip Cookies  Recipe - Allrecipes.com	1	0
+74	Edible Chocolate Chip Cookie Dough Recipe - Allrecipes.com	0	0
+75	Whole-Wheat Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+76	Soft Chocolate Chip Cookies II Recipe - Allrecipes.com	1	0
+77	Never Fail Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+78	Soft Milk Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+79	Chocolate Chocolate Chip Cookies III Recipe - Allrecipes.com	1	0
+80	The Best Double Chocolate Chip Cookie Recipe - Allrecipes.com	1	1
+81	Oatmeal Chocolate Chip Cookies I Recipe - Allrecipes.com	1	0
+82	Macadamia Nut Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+83	Neiman Marcus Chocolate Chip Cookie Recipe - Allrecipes.com	1	1
+84	Thick Mint Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+85	Giant Crisp Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+86	Pumpkin Chocolate Chip Cookies I Recipe - Allrecipes.com	1	0
+87	Chocolate Chip Cookies from Karo® Recipe - Allrecipes.com	1	1
+88	Sue's Two-Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+89	Mel's Magnificent Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+90	Allison's Supreme Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+91	Chocolate Chip Cookies (Gluten Free) Recipe - Allrecipes.com	1	0
+92	Devouring Oatmeal Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+93	Pistachio White Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+94	Mom's Best Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+95	New Brunswick Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+96	Derby Day Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+97	Three Hundred Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+98	Double Nut Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+99	Chocolate Oatmeal Chocolate Chips Cookies Recipe - Allrecipes.com	1	0
+100	Excessively Good Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+101	Mindy Custer's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+102	Firefighter's Favorite Chocolate Chip Cookie Recipe - Allrecipes.com	1	1
+103	Vanilla Rich Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+104	Double Chocolate Chip Cookies with Peppermint Recipe - Allrecipes.com	1	0
+105	Very Cranberry Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+106	The Right Choice Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+107	Hillary Clinton's Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+108	My Favorite Chocolate Chip Cookie Recipe - Allrecipes.com	1	1
+109	Famous Amos Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+110	Light and Fluffy Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+111	Chocolate Chip Cookie Dough Bar Recipe - Allrecipes.com	0	0
+112	Super Easy Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+113	Chocolate Chips Cookies with Tennessee Whiskey Recipe - Allrecipes.com	1	0
+114	Red Velvet Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+115	Liz's Astounding Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+116	Oatmeal Chocolate Chip Cookies IV  Recipe - Allrecipes.com	1	0
+117	Blue Ribbon Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+118	Chewy Jumbo Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+119	Southern Spiced Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+120	Crisp Rice Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+121	Pumpkin Chocolate Chip Cookies II Recipe - Allrecipes.com	1	0
+122	Turtles® Fudge Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+123	Giant Toffee Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+124	Pecan Coconut Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+125	Byron's Ginger Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+126	Sour Cream Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+127	The De Leon Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+128	Maple-Bacon Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+129	Super Food Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+130	Healthier Best Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+131	Cream Cheese Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+132	Easy Passover Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+133	Oatmeal Chocolate Chip Cookies II Recipe - Allrecipes.com	1	0
+134	Great Chocolate Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+135	Chocolate Chip Cookies for Special Diets Recipe - Allrecipes.com	1	0
+136	Skinny Girl Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+137	Slightly Spicy Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+138	Thick and Chewy Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+139	Ooey Gooey Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+140	Soft Chocolate Chip Cookies I Recipe - Allrecipes.com	1	1
+141	Julie's Famous Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+142	Salted Caramel Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+143	Mom's Excellent Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+144	Pumpkin Oatmeal Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+145	Giant Chocolate Chip Cookie Cake  Recipe - Allrecipes.com	0	0
+146	Chocolate Chip Cookie Dough Truffles Recipe - Allrecipes.com	0	0
+147	Chocolate Chip Cookie Dough Cheesecake Recipe - Allrecipes.com	0	0
+148	Skillet Chocolate Chip Cookie Sundae Recipe - Allrecipes.com	0	0
+149	Peanut Butter Choco Chip Cookies Recipe - Allrecipes.com	1	0
+150	Chocolate Chip Cookie Dough Frosting Recipe - Allrecipes.com	0	0
+151	Chocolate Chip Cookie Dough Fudge Recipe - Allrecipes.com	0	0
+152	Chocolate Chip Cookie Layer Cake Recipe - Allrecipes.com	0	0
+153	The Original Chocolate Chip Cookie Cake Recipe - Allrecipes.com	0	0
+154	Award Winning Soft Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+155	Best Big	1	1
+156	Double Peanut Butter & Milk Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+157	Chewy Peanut Butter Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+158	Chocolate Chip Cookies from In The Raw Sweeteners Recipe - Allrecipes.com	1	0
+159	Vegan Gluten-Free Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+160	Matcha Green Tea Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+161	Ultimate High Altitude Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+162	A to Z Everything-but-the-Kitchen-Sink Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+163	Original Nestle® Toll House Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+164	Gluten-Free Almond Flour Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+165	High Altitude Banana Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+166	Best Ever Chocolate Chip Cookies I Recipe - Allrecipes.com	1	0
+167	Peanut Butter/Chocolate Chip Cookie Bars Recipe - Allrecipes.com	0	0
+168	Best Ever Chocolate Chip Cookies II Recipe - Allrecipes.com	1	1
+169	Healthier Absolutely the Best Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+170	Protein Peanut Butter Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+171	Julia's Best Ever Chocolate Chip Cookies In A Jar Recipe - Allrecipes.com	1	0
+172	Peanut Butter Chocolate Chip Cookies II Recipe - Allrecipes.com	1	0
+173	Creme de Menthe Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+174	Oatmeal Peanut Butter and Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+175	Peanut Butter Chocolate Chip Cookies from Heaven Recipe - Allrecipes.com	1	0
+176	Salted Caramel Chocolate Chip Cookies from Pillsbury® Recipe - Allrecipes.com	1	0
+177	Nut Butter Chocolate Chip Cookies (Gluten-Free) Recipe - Allrecipes.com	1	0
+178	David's Secret Ingredient Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+179	Peanut Butter Chocolate Chip Cookies IV Recipe - Allrecipes.com	1	0
+180	Double-Peanut Double-Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+181	Chocolate Chip Cookies Without Chocolate Chips Recipe - Allrecipes.com	1	0
+182	Gluten-Free White Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+183	Paleo Coconut Dark Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+184	Absolutely Sinful Chocolate Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+185	European Cookie Butter Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+186	Whole White Wheat and Honey Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+187	Edible Pecan Chocolate Chip Cookie Dough Recipe - Allrecipes.com	0	0
+188	Chocolate Chip Cookies with Truvia® Baking Blend Recipe - Allrecipes.com	1	0
+189	Grain-Free	1	0
+190	Healthier Award Winning Soft Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+191	Grain Free and Gluten Free Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+192	Gluten-Free Chocolate Chip Cookies Recipe Recipe - Allrecipes.com	1	0
+193	Chocolate Macadamia Nut and White Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+194	5-Ingredient Easy Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+195	Best Ever Chocolate Chip Cookies III Recipe - Allrecipes.com	1	1
+196	World's Greatest Chewy Chocolate Chip Cookies Recipe - Allrecipes.com	1	1
+197	Chocolate Chip Cookie Dough Protein Bites Recipe - Allrecipes.com	0	0
+198	Soft Oatmeal Coconut Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+199	Chocolate Chip Cookie Ice Cream Cake Recipe - Allrecipes.com	0	0
+200	Kirsten's Dark Chocolate Chip Cookie Bars Recipe - Allrecipes.com	0	0
+201	Peanut Butter Chocolate Chip Cookies III Recipe - Allrecipes.com	1	0
+202	Healthy Vegan Pumpkin Oat Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+203	Frozen Chocolate Chip Cookie Dough Balls Recipe - Allrecipes.com	0	0
+204	Gluten-Free Oatmeal Chocolate Chip Cookies Recipe - Allrecipes.com	1	0
+205	Easy Chocolate Chip Cookie Dough Truffles Recipe - Allrecipes.com	0	0
+206	Holly's Chocolate Chip Cookie Dough Dip Recipe - Allrecipes.com	0	0
+207	Nichola's Chocolate Chip Cookie Dough Truffles Recipe - Allrecipes.com	0	0
+208	Easy Chocolate Chip Cookie Dough Cheesecake Recipe - Allrecipes.com	0	0
+209	Chocolate Chip Pudding Cookies Recipe - Allrecipes.com	1	0
+210	Chocolate Chip Coffee Cookies Recipe - Allrecipes.com	1	0
+211	Chocolate Chip Peppermint Cookies Recipe - Allrecipes.com	1	0
+212	Chocolate Chip Oatmeal Cookies Recipe - Allrecipes.com	1	0
+213	Chocolate Chip Pumpkin Cookies Recipe - Allrecipes.com	1	0
+214	Chocolate Chip Kiss Cookies Recipe - Allrecipes.com	1	0
+215	Chocolate Chip Crisscross Cookies Recipe - Allrecipes.com	1	0
+216	Chocolate Chip Apricot Cookies Recipe - Allrecipes.com	1	0
+217	Chocolate Chip Chunk Cookies Recipe - Allrecipes.com	1	1
+218	Chocolate Chip Granola Cookies Recipe - Allrecipes.com	1	0
+219	Chocolate Oatmeal Chip Cookies Recipe - Allrecipes.com	1	0
+220	Chocolate Chip Pistachio Cookies Recipe - Allrecipes.com	1	0
+221	Chocolate Chip Marble Cookies Recipe - Allrecipes.com	1	0
+222	Chocolate Chip Cinnamon Cookies Recipe - Allrecipes.com	1	0
+223	Chocolate Chip Crispy Cookies Recipe - Allrecipes.com	1	0
+224	Chocolate Chip Honey Cookies Recipe - Allrecipes.com	1	0
+225	Chocolate Chip Meringue Cookies Recipe - Allrecipes.com	1	0
+226	Chocolate Chip Banana Cookies Recipe - Allrecipes.com	1	0
+227	Choc-illa Chip Cookies Recipe - Allrecipes.com	1	0
+228	Double Coco Double Chocolate Chip Cookies (a twist on Toll House® cookies) Recipe - Allrecipes.com	1	0
+229	NESTLE® TOLL HOUSE® Mint Filled DelightFulls™ Chocolate Chip Cookies Recipe - Allrecipes.com	0	0
+230	NESTLE® TOLL HOUSE® Caramel Filled DelightFulls™ Chocolate Chip Cookies Recipe - Allrecipes.com	0	0
+231	Healthier Best Big	1	0
+232	Salted Caramel Chocolate Chip Cookies from Reynolds® Parchment Paper Recipe - Allrecipes.com	1	0
+233	Daddy Cookies (Gluten- and Grain-Free Peanut Butter and Chocolate Chip Cookies) Recipe - Allrecipes.com	1	0
+234	Chocolate Chip Cookie Dough + Cupcake = The BEST Cupcake.  Ever. Recipe - Allrecipes.com	0	0
+235	Chewy Chocolate Chip Oatmeal Cookies Recipe - Allrecipes.com	1	0
+236	White Chocolate Chip Oatmeal Cookies Recipe - Allrecipes.com	1	0
+237	Chocolate Chocolate Chip Cake Cookies Recipe - Allrecipes.com	1	0
+238	Chocolate Chip Shortbread Cookie Logs Recipe - Allrecipes.com	0	0
+239	Chocolate Chip Shortbread Cookies II Recipe - Allrecipes.com	0	0
+240	Chocolate-Chocolate Chip Bacon Cookies Recipe - Allrecipes.com	1	0
+241	Yummy Chocolate Chip Oatmeal Cookies Recipe - Allrecipes.com	1	0
+242	Double Chocolate Chip Macadamia Cookies Recipe - Allrecipes.com	1	0
+243	Meg's Chocolate Chip Oatmeal Cookies Recipe - Allrecipes.com	1	0
+244	Chocolate Chip Shortbread Cookies I Recipe - Allrecipes.com	0	0
+245	Mini Chocolate Chip Shortbread Cookies Recipe - Allrecipes.com	0	0
+246	Crystal's Chocolate Chip Pumpkin Cookies Recipe - Allrecipes.com	1	0
+247	White Chip Chocolate Cookies Recipe - Allrecipes.com	1	0
+248	Chocolate Swirl and Chip Cookies Recipe - Allrecipes.com	1	0
+249	Coconut Oil Milk Chocolate Chip Oat Cookies Recipe - Allrecipes.com	1	0
+250	Egg Free Chocolate Chip Pumpkin Cookies Recipe - Allrecipes.com	1	0
+251	Orange White Chocolate Chip Beltane Cookies Recipe - Allrecipes.com	1	0
+252	Amazing White Chocolate Chip Pistachio Cookies Recipe - Allrecipes.com	1	0
+253	Healthier Chewy Chocolate Chip Oatmeal Cookies Recipe - Allrecipes.com	1	0
+254	Gooey Marshmallow Chocolate Chip Cinnamon Cookies Recipe - Allrecipes.com	1	0
+255	Felix K.'s 'Don't even try to say these aren't the best you've ever eaten	1	1
+256	Chewy White Chocolate Chip Gingerbread Cookies Recipe - Allrecipes.com	0	0
+257	Forgotten Puffs (Chocolate Chip Meringue Cookies) Recipe - Allrecipes.com	0	0
+258	Chocolate Chip Cake Mix Cookies Recipe - Allrecipes.com	1	0
+259	Peanut Butter Chip Chocolate Cookies Recipe - Allrecipes.com	1	0
+260	Chocolate Chip Granola Protein Cookies Recipe - Allrecipes.com	0	0
+261	Chocolate Chip Pumpkin Spice Cookies Recipe - Allrecipes.com	1	0
+262	Chocolate Peanut Butter Chip Cookies Recipe - Allrecipes.com	1	0
+263	Chocolate Peanut Butter Chip Cookies  Recipe - Allrecipes.com	1	0
+264	Gluten-Free Chocolate Chip Hemp Seed Cookies Recipe - Allrecipes.com	1	0
+265	Chewy Chocolate Peanut Butter Chip Cookies Recipe - Allrecipes.com	1	0
+266	Candi's Chocolate Peanut Butter Chip Cookies Recipe - Allrecipes.com	1	0
+267	Chocolate Mint Candies Cookies Recipe - Allrecipes.com	0	0
+268	Chocolate Truffle Cookies Recipe - Allrecipes.com	0	0
+269	Easy Ice Cream Sandwiches Recipe - Allrecipes.com	0	0
+270	Chef John's Chili Chocolate Cookies Recipe - Allrecipes.com	0	0
+271	Cake Mix Cookies VIII Recipe - Allrecipes.com	0	0
+272	Chocolate Oatmeal Cookies Recipe - Allrecipes.com	0	0
+273	White Chocolate	1	0
+274	Chocolate Pile-Up Cookies Recipe - Allrecipes.com	1	0
+275	Kitchen Sink Cookies Recipe - Allrecipes.com	1	0
+276	Chocolate Fudge Cookies Recipe - Allrecipes.com	1	0
+277	Brookies (Brownie Cookies) Recipe - Allrecipes.com	1	0
+278	Very Chocolate Cookies Recipe - Allrecipes.com	1	0
+279	Cookie in a Jar Recipe - Allrecipes.com	1	1

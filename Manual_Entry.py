@@ -28,15 +28,15 @@ recipe = input("What are the instructions?\n")
 # Write them all to file in the MISC folder
 index = 1
 fid = 'source_' + str(index) + '.txt'
-file_path = "P://NLP//Pudding_Cookie//Misc//" + fid
+file_path = "P://NLP//Pudding_Cookie//Results_Misc//" + fid
 
 while os.path.exists(file_path):
     index = index + 1
     fid = 'source_' + str(index) + '.txt.'
-    file_path = "P://NLP//Pudding_Cookie//Misc//" + fid
+    file_path = "P://NLP//Pudding_Cookie//Results_Misc//" + fid
 
 
-os.chdir("P://NLP//Pudding_Cookie//Misc//")
+os.chdir("P://NLP//Pudding_Cookie//Results_Misc//")
 
 # Print the source
 link_file = fid
