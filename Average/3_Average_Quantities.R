@@ -2,7 +2,7 @@ library(dplyr)
 rm(list = ls())
 
 # Read in the data frame
-df <- read.csv("./Aggregated_Data/Scaled_Units_Cleaned.csv", row.names = NULL)
+df <- read.csv("..Aggregated_Data/2_Scaled_Units_Cleaned.csv", row.names = NULL)
 df$Quantity <- as.numeric(as.character(df$Quantity))
 
 # How many recipes are there in the databse?
@@ -48,3 +48,4 @@ ingred_list <- top_ten$Ingredient
 
 mean_df <- subset(df_sum, Ingredient %in% ingred_list)
 mean_df
+

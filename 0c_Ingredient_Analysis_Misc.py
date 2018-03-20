@@ -85,7 +85,7 @@ for i in index_list:
          ngred = text.count('\n') + 1
          n_ingredients.append(ngred)
          ingred_source_vector += [i]*ngred
-         for line in  text.split('\n')[-1]:
+         for line in  text.split('\n'):
              line = line.strip()
              line = line.replace('¾', ' 3/4')
              line = line.replace('¼', ' 1/4')
@@ -232,7 +232,7 @@ for i in index_list:
 # Ingredient category, entry, source recipe index 
 
 # Find all occurrences of these ingredients in our consolidated list
-with open('ingredient_measures_Misc2.csv','w') as csvfile:
+with open('ingredient_measures_Misc.csv','w') as csvfile:
     writer = csv.writer(csvfile)
     fieldnames=['Ingredient','Text','Recipe_Index','Rating']
     writer.writerow(fieldnames)
@@ -241,7 +241,7 @@ for i in whole_list:
     text = mass_text[i]
     recipe_index = ingred_source_vector[i]
     rating = ratings[index_list.index(ingred_source_vector[i])]
-    with open('ingredient_measures_Misc2.csv','a',encoding='utf-8') as csvfile:
+    with open('ingredient_measures_Misc.csv','a',encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow([category] + [text] + [recipe_index] + [rating])
     

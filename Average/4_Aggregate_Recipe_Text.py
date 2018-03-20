@@ -25,7 +25,7 @@ recipeAR = []
 use_index = []
 
 # Read in the recipe directory, where the recipe index and the boolean "Include this recipe" are listed
-with open('Results_AllRecipes/recipe_directory.txt','r',encoding='utf8') as f:
+with open('./Scraped_Recipes/Scrape_Results_AllRecipes/recipe_directory.txt','r',encoding='utf8') as f:
     reader = csv.reader(f, delimiter='\t')
     for row in reader:
         use_index.append(row[use_row])
@@ -36,7 +36,7 @@ index_list =  [i for i, j in enumerate(use_index) if j == '1']
 # Load in the serving sizes 
 for i in index_list:
     # And load in the serving sizes
-    filename2 = 'Results_AllRecipes/recipe_' + str(i+1) + '.txt'
+    filename2 = 'Scraped_Recipes/Scrape_Results_AllRecipes/recipe_' + str(i+1) + '.txt'
     with open(filename2) as f:
         text = f.read()
         recipeAR.append(text.strip())
@@ -48,7 +48,7 @@ recipeEP = []
 use_index = []
 
 # Read in the recipe directory, where the recipe index and the boolean "Include this recipe" are listed
-with open('Results_Epicurious/recipe_directory.txt','r',encoding='utf8') as f:
+with open('./Scraped_Recipes/Scrape_Results_Epicurious/recipe_directory.txt','r',encoding='utf8') as f:
     reader = csv.reader(f, delimiter='\t')
     for row in reader:
         use_index.append(row[use_row])
@@ -59,7 +59,7 @@ index_list =  [i for i, j in enumerate(use_index) if j == '1']
 # Load in the serving sizes 
 for i in index_list:
     # And load in the serving sizes
-    filename2 = 'Results_Epicurious/chocolate+chip+cookies/recipe_' + str(i+1) + '.txt'
+    filename2 = 'Scraped_Recipes/Scrape_Results_Epicurious/chocolate+chip+cookies/recipe_' + str(i+1) + '.txt'
     with open(filename2) as f:
         text = f.read()
         recipeEP.append(text.strip())  
@@ -72,9 +72,9 @@ use_index = []
 
 # Read in the recipe directory, where the recipe index and the boolean "Include this recipe" are listed
 # Load in the serving sizes 
-for i in range(0,31):
+for i in range(0,116):
     # And load in the serving sizes
-    filename2 = 'Results_Misc/recipe_' + str(i+1) + '.txt'
+    filename2 = './Scraped_Recipes/Scrape_Results_Misc/recipe_' + str(i+1) + '.txt'
     with open(filename2, encoding = 'utf-8',errors='ignore') as f:
         text = f.read()
         recipeM.append(text.strip())  
@@ -83,9 +83,10 @@ for i in range(0,31):
 master_list = recipeAR + recipeEP + recipeM
 
 # Write them all to a file
-newfile = 'Master_recipes_cons.txt'
-f = open(newfile, 'w')
+newfile = './Aggregated_Data/4_All_Directions.txt'
+f = open(newfile, 'wb')
 for item in master_list:
-    f.write(item)
-    f.write('\n\n\n')
+        if type(item) == str:
+            f.write(item.encode('ascii', errors = 'ignore'))
+            f.write(b'\n')
 f.close()

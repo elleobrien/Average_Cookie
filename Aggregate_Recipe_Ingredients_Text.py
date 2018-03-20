@@ -32,7 +32,7 @@ recipeAR = []
 use_index = []
 
 # Read in the recipe directory, where the recipe index and the boolean "Include this recipe" are listed
-with open('Results_AllRecipes/recipe_directory.txt','r',encoding='utf8') as f:
+with open('./Scraped_Recipes/Scrape_Results_AllRecipes/recipe_directory.txt','r',encoding='utf8') as f:
     reader = csv.reader(f, delimiter='\t')
     for row in reader:
         use_index.append(row[use_row])
@@ -43,7 +43,7 @@ index_list =  [i for i, j in enumerate(use_index) if j == '1']
 # Load in the recipe instructions
 for i in index_list:
     # And load in the serving sizes
-    filename2 = 'Results_AllRecipes/recipe_' + str(i+1) + '.txt'
+    filename2 = './Scraped_Recipes/Scrape_Results_AllRecipes/recipe_' + str(i+1) + '.txt'
     with open(filename2) as f:
         text = f.read()
         recipeAR.append(text.strip())
@@ -51,7 +51,7 @@ for i in index_list:
 # Load in the scaled ingredient lists
 ingredient_list_AR = []
 # Read in dataframe with pandas
-df = pd.read_csv('ingredient_measures_AllRecipes.csv', encoding='latin1')
+df = pd.read_csv('./Aggregated_Data/0_ingredient_measures_AllRecipes.csv', encoding='latin1')
 
 # Make a list of lists
 for i in index_list:
@@ -67,7 +67,7 @@ recipeEP = []
 use_index = []
 
 # Read in the recipe directory, where the recipe index and the boolean "Include this recipe" are listed
-with open('Results_Epicurious/recipe_directory.txt','r',encoding='utf8') as f:
+with open('./Scraped_Recipes/Scrape_Results_Epicurious/recipe_directory.txt','r',encoding='utf8') as f:
     reader = csv.reader(f, delimiter='\t')
     for row in reader:
         use_index.append(row[use_row])
@@ -78,7 +78,7 @@ index_list =  [i for i, j in enumerate(use_index) if j == '1']
 # Load in the recipe
 for i in index_list:
     # And load in the serving sizes
-    filename2 = 'Results_Epicurious/chocolate+chip+cookies/recipe_' + str(i+1) + '.txt'
+    filename2 = './Scraped_Recipes/Scrape_Results_Epicurious/chocolate+chip+cookies/recipe_' + str(i+1) + '.txt'
     with open(filename2) as f:
         text = f.read()
         recipeEP.append(text.strip())  
@@ -86,7 +86,7 @@ for i in index_list:
 # Load in the scaled ingredient lists
 ingredient_list_EP = []
 # Read in dataframe with pandas
-df = pd.read_csv('ingredient_measures_Epicurious.csv', encoding='latin1')
+df = pd.read_csv('./Aggregated_Data/0_ingredient_measures_Epicurious.csv', encoding='latin1')
 
 # Make a list of lists
 for i in index_list:
@@ -103,10 +103,10 @@ use_index = []
 
 # Read in the recipe directory, where the recipe index and the boolean "Include this recipe" are listed
 # Load in the serving sizes 
-index_list = list(range(0,112))
+index_list = list(range(0,114))
 for i in index_list:
     # And load in the serving sizes
-    filename2 = 'Results_Misc/recipe_' + str(i+1) + '.txt'
+    filename2 = './Scraped_Recipes/Scrape_Results_Misc/recipe_' + str(i+1) + '.txt'
     with open(filename2, encoding = 'utf-8',errors='ignore') as f:
         text = f.read()
         recipeM.append(text.strip())  
@@ -115,7 +115,7 @@ for i in index_list:
 # Load in the scaled ingredient lists
 ingredient_list_M = []
 # Read in dataframe with pandas
-df = pd.read_csv('ingredient_measures_Misc.csv', encoding='latin1')
+df = pd.read_csv('./Aggregated_Data/0_ingredient_measures_Misc.csv', encoding='latin1')
 
 # Make a list of lists
 for i in index_list:
@@ -132,7 +132,7 @@ master_list = recipeAR + recipeEP + recipeM
 master_ing = ingredient_list_AR + ingredient_list_EP + ingredient_list_M
 
 # Write all to a file
-newfile = 'Ing_only.txt'
+newfile = 'Ing_Recipe_Aggregate.txt'
 f = open(newfile, 'wb')
 for i in range(0,len(master_list)):
     
@@ -142,9 +142,10 @@ for i in range(0,len(master_list)):
             f.write(item.encode('ascii', errors = 'ignore'))
             f.write(b'\n')
     f.write(b'BREAK\n')
-    #f.write(b'\n\n')
-    #dir_list = master_list[i]
-    #f.write(dir_list.encode('ascii',errors = 'ignore'))
-    #f.write(b'\n\n')
+    f.write(b'\n\n')
+    dir_list = master_list[i]
+    f.write(dir_list.encode('ascii',errors = 'ignore'))
+    f.write(b'BREAK\n')
+    f.write(b'\n\n')
 
 f.close()

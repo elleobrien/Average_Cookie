@@ -1,6 +1,6 @@
 rm(list = ls())
 
-setwd('./Aggregated_Data')
+setwd('../Aggregated_Data')
 # Read in the data frame
 df <- read.csv("ingredient_measures_All_Cleaned.csv", row.names = NULL)
 

@@ -18,11 +18,13 @@ from nltk import word_tokenize
 from nltk.util import ngrams
 from collections import Counter
 import string
+import numpy as np
+import random as random
 
 ###############################################################################
 ##                  RECIPE ANALYSIS                                          ##
 ###############################################################################
-filename = "Ing_only.txt"
+filename = "Ing_Recipe_Aggregate.txt"
 
 with open(filename, encoding = 'utf-8') as f:
     corpus = f.read()
@@ -87,7 +89,7 @@ start2 = 'cup'
 start3 = 'butter'
 
 model_text = [start1, start2, start3]
-for i in range(0,250):
+for i in range(0,2000):
     cumsum = []
     gram_choices = []
     # Find all elements in the bigram corpus that start
@@ -116,7 +118,11 @@ for i in range(0,250):
     model_text.append(new_word)
 
 out_str = ' '.join(model_text)
-    
+out_str =out_str.replace('break', '\n\n')
+# Print to file!
+with open('Markov_Model_Out.txt', 'w') as thefile:
+    thefile.write(out_str)
+
     
 ###### Five grams #########
     ###### Four grams ###############
@@ -126,7 +132,7 @@ start3 = 'baking'
 start4 = 'soda'
 
 model_text = [start1,start2,start3,start4]
-for i in range(0,200):
+for i in range(0,500):
     # Find all elements in the bigram corpus that start
     # with startword
     cumsum = [];
@@ -157,7 +163,9 @@ for i in range(0,200):
     model_text.append(new_word)
 
 
-
+# Print to file!
+with open('test.txt', 'w') as thefile:
+    thefile.write(" ".join(model_text))
 
 
 

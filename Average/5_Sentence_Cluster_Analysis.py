@@ -23,11 +23,25 @@ import csv
 from collections import Counter, defaultdict
 from nltk import bigrams, trigrams
 
-filename = "Master_recipes.txt"
+filename = "./Aggregated_Data/4_All_Directions.txt"
 
 with open(filename, encoding = 'utf-8') as f:
     corpus = f.read()
     
+
+# Some cleaning- get rid of indices before instructions
+corpus = corpus.replace("1.", "")
+corpus = corpus.replace("2.", "")
+corpus = corpus.replace("3.", "")
+corpus = corpus.replace("4.", "")
+corpus = corpus.replace("5.", "")
+corpus = corpus.replace("6.", "")
+corpus = corpus.replace("1-", "")
+corpus = corpus.replace("2-", "")
+corpus = corpus.replace("3-", "")
+corpus = corpus.replace("4-", "")
+corpus = corpus.replace("5-", "")
+corpus = corpus.replace("6-", "")
 
 
 # Let's get the vector coordinates for each step.
@@ -36,6 +50,12 @@ nlp = en_core_web_lg.load()
 doc = nlp(corpus)
 #chunks = list(doc.noun_chunks)
 sents = list(doc.sents)
+
+# Remove any sentences that are just an indexing number (e.g. "3.") or bad parses
+for s in sents:
+    if len(s) < 3:
+        sents.remove(s)
+
 
 # Initialize a vector storage space 
 X_sents = np.zeros((len(sents), 300))
@@ -66,46 +86,30 @@ for center in centers:
     print(sents[indices[0][4]])
     print('-----------------Next---------------------')
     
+
+    
 # Do a PCA analysis to reduce dimensionality for plotting
-#pca = PCA(n_components=3)
-#pca.fit(X_sents)
-#sents2 = pca.transform(X_sents)
+pca = PCA(n_components=2)
+pca.fit(X_sents)
+sents2 = pca.transform(X_sents)
+
+# Print to file
+with open('./Average/Sentence_PCA.csv','w') as csvfile:
+    writer = csv.writer(csvfile)
+    fieldnames=['Sentence','Cluster','Coord1','Coord2']
+    writer.writerow(fieldnames)
+for i in range(0,len(sents)):
+    text = sents[i]
+    cluster = clusters[i]
+    coord1 = sents2[i][0]
+    coord2 = sents2[i][1]
+    with open('./Average/Sentence_PCA.csv','a') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow([text] + [cluster] + [coord1] + [coord2])
+# Print the PCA components for each sentence as well as the cluster it belongs to. 
 #fig = plt.figure(1, figsize=(4, 3))
 #plt.clf()
 #ax = Axes3D(fig, rect=[0, 0, .95, 1], elev=48, azim=134)
 #ax.scatter(sents2[:,0],sents2[:,1],sents2[:,2], alpha=0.5, c=clusters, cmap=plt.cm.spectral,
  #          edgecolor='k')
  
- #### Build a bigram model #####
-model = defaultdict(lambda: defaultdict(lambda:0))
-
-for sentence in sents:
-    for w1, w2, w3 in trigrams(sentence, pad_right = True, pad_left = True):
-        model[(w1, w2)][w3] += 1
-        
-# Transform counts to probabilities
-for w1_w2 in model:
-    total_count = float(sum(model[w1_w2].values()))
-    for w3 in model[w1_w2]:
-        model[w1_w2][w3] /= total_count
-        
-## Now generate random text
-#import random
-#text = [None, None]
-#sentence_finished = False
-#
-#while not sentence_finished:
-#    r = random.random()
-#    accumulator = .0
-#    
-#    for word in model[tuple(text[-2:])].keys():
-#        accumulator += model[tuple(text[-2:])][word]
-#        
-#        if accumulator >= r:
-#            text.append(word)
-#            break
-#        
-#    if text[-2:] == [None, None]:
-#        sentence_finished = True
-#
-#print(' '.join([t for t in text if t]))

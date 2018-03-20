@@ -2,7 +2,7 @@ library(ggplot2)
 library(dplyr)
 library(reshape2)
 
-setwd('./Aggregated_Data')
+setwd('../Aggregated_Data')
 df1 <- read.csv("ingredient_measures_AllRecipes.csv")
 df1$Recipe_Index <- paste0("AR_", df1$Recipe_Index)
 df2 <- read.csv("ingredient_measures_Epicurious.csv")
