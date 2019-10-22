@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Sep 14 14:52:48 2017
-
+Process raw text scraped from Epicurious.com into tabular form for analysis. 
 @author: eobrien
 """
 import glob
