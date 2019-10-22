@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Sep 14 14:52:48 2017
-
+Process the raw text scraped from the website "All_Recipes.com" into tabular form for analysis.
 @author: eobrien
 """
 import glob
@@ -16,7 +16,6 @@ import csv
 from fractions import Fraction
 
 
-####### How many servings per recipe ###########################################
 ################################################################################
 # This is the subfolder in which the scraping results are all stored
 folders = ["Results_AllRecipes"]
