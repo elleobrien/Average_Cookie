@@ -18,7 +18,7 @@ Note that the suffix "_Cleaned" indicates that the file was manually inspected a
 
 **Markov** The file Ngram_Markov_Model.py contains the complete code to generate recipes using a Markov language model with several different parameterizations. 
 
-**RNN* This folder contains the output of an RNN model. The RNN model (not provided in this repo) is a clone of jcjohnson's torch-rnn repo https://github.com/jcjohnson/torch-rnn
+**RNN** This folder contains the output of an RNN model. The RNN model (not provided in this repo) is a clone of jcjohnson's torch-rnn repo https://github.com/jcjohnson/torch-rnn
 
 
 
